@@ -19,17 +19,17 @@ Calculated sentiment polarity (textblob). The polarity for an element defines th
 
 # Harry Potter and the Philosopher's Stone
 
-![HP1]()
+![HP1](images/HP1.jpg)
 
 ### Most mentioned characters
 The ten most mentioned characters of Harry Potter and the Philosopher's stone were analyzed. As expected, the name Harry was the most mentioned one, a total of 1213 times. It was followed by Ron (410 times), Hagrid (336 times) and Hermiones (257 times).  
 
-![characters]()
+![characters](images/characters.png)
 
 ### Sentiment analysis for chapters
 A sentiment analysis was applied on the book chapters. Numbers > 0 mean positive sentiment levels and numbers < 0, negative sentiment level. Chapter 3 was the only chapter with a negative sentiment level. In chapter 3, punished for the boa constrictor incident, Harry was locked alone in his cupboard until summer. In this chapter, Uncle Vernon prevented Harry from receiving Hogwarts' letter in many ways, even taking the family to an island on a stormy night, setting the scene in an atmosphere of mystery and terror.
 
-![chapters]()
+![chapters](images/chapters.png)
 
 ### Sentiment analysis for Harry Potter
 Each paragraph/sentence receives a sentiment level. The candidate is then given the sentiment score based on their average appearance in positive and negative paragraphs/sentences.
@@ -40,17 +40,17 @@ Harry Potter received a high sentiment level showing his positivity along the bo
 Sentiment level for the four Hogwarts houses based on appareances in senteces was analyzed.   
 For Hogwarts houses, Gryffindor got the highest sentiment level. Unexpectedly, Ravenclaw and Hufflepuff got lower sentiment levels than Slytherin. It was probably due to lower mentions in general along the book.
 
-![houses]()
-![houses1]()
+![houses](images/Houses.png)
+![houses1](images/houses1.png)
 
 ### Sentiment analysis for key characters
 Sentiment level for the key characters based on appareances in paragraphs.
 
-![keycharacters]()
+![keycharacters](images/keycharacters.png)
 
-#### Character's sentiment journey across the book: SNAPE
+### Character's sentiment journey across the book: SNAPE
 The sentiment analysis was applied for a specific character. The book was splitted into a selected number of sections to display a chronological counter with its corresponding sentiment level. The sentiment level for each section of the journey across the book was also calculated cumulatively.
 Snape's sentiment journey was almost around zero across the book. But cumulatively, Snape had negative sentiments in Harry Potter and the Philosopher's Stone. Remember that he quickly became the primary antagonist of this book, as Harry suspected him of plotting to steal the Philosopher's Stone, and of attempting to kill him.
 
-![Snape]()
-![Snape_cum]()
+![Snape](images/snape_j.png)
+![Snape_cum](images/snape_jc.png)
