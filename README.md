@@ -22,7 +22,7 @@ Calculated sentiment polarity (textblob). The polarity for an element defines th
 ![HP1](images/HP1.jpg)
 
 ### Most mentioned characters
-The ten most mentioned characters of Harry Potter and the Philosopher's stone were analyzed. As expected, the name Harry was the most mentioned one, a total of 1213 times. It was followed by Ron (410 times), Hagrid (336 times) and Hermiones (257 times).  
+The ten most mentioned characters of Harry Potter and the Philosopher's stone were analyzed. As expected, the name Harry was the most mentioned one, a total of 1213 times. It was followed by Ron (410 times), Hagrid (336 times) and Hermione (257 times).  
 
 ![characters](images/characters.png)
 
