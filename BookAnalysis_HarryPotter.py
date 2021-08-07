@@ -133,9 +133,9 @@ df = pd.DataFrame.from_dict(filtered_d, orient = 'index').iloc[0:10]
 #print(df)
 
 # Barplot
-df.plot.bar(figsize = (20,10), fontsize = 16, legend = False, color='firebrick')
-plt.title('Most mentioned Harry Potter Characters',fontsize = 20)
-plt.ylabel("Number of mentions", fontsize = 16)
+df.plot.bar(figsize = (20,10), fontsize = 20, legend = False, color='firebrick')
+plt.title('Most mentioned Harry Potter Characters',fontsize = 30)
+plt.ylabel("Number of mentions", fontsize = 20)
 plt.show()
 
 #%% 
@@ -160,19 +160,19 @@ df_sent = pd.DataFrame.from_dict(chapter_sentiment, orient = 'index').iloc[1:18]
 #print(df_sent)
 
 # Barplot
-df_sent.plot.bar(figsize = (20,10), fontsize = 16, legend = False, color='goldenrod')
+df_sent.plot.bar(figsize = (20,10), fontsize = 20, legend = False, color='goldenrod')
 plt.axhline(y=0, color='black', linestyle='-')
-plt.title('Sentiment Analysis for chapters',fontsize = 20)
-plt.xlabel("Chapter number", fontsize = 16)
-plt.ylabel("Sentiment level", fontsize = 16)
+plt.title('Sentiment Analysis for chapters',fontsize = 30)
+plt.xlabel("Chapter number", fontsize = 20)
+plt.ylabel("Sentiment level", fontsize = 20)
 plt.show()
 
 #Lineplot
-df_sent.plot.line(figsize = (20,10), fontsize = 16, legend = False, color='darkgreen')
+df_sent.plot.line(figsize = (20,10), fontsize = 20, legend = False, color='darkgreen')
 plt.axhline(y=0, color='black', linestyle='--')
-plt.title('Sentiment Analysis for chapters',fontsize = 20)
-plt.xlabel("Chapter number", fontsize = 16)
-plt.ylabel("Sentiment level", fontsize = 16)
+plt.title('Sentiment Analysis for chapters',fontsize = 30)
+plt.xlabel("Chapter number", fontsize = 20)
+plt.ylabel("Sentiment level", fontsize = 20)
 plt.show()
 
 
@@ -221,10 +221,10 @@ for house in houses:
 df_houses = pd.DataFrame.from_dict(houses_sent, orient = 'index')
 
 # Barplot
-df_houses.plot.bar(figsize = (20,10), fontsize = 16, legend = False, 
+df_houses.plot.bar(figsize = (20,10), fontsize = 20, legend = False, 
                    color=('firebrick', 'darkgreen', 'goldenrod', 'navy'))
-plt.title('Sentiment Analysis for Hogwarts Houses',fontsize = 20)
-plt.ylabel("Sentiment level", fontsize = 16)
+plt.title('Sentiment Analysis for Hogwarts Houses',fontsize = 30)
+plt.ylabel("Sentiment level", fontsize = 20)
 plt.show()
 
 
@@ -245,10 +245,10 @@ for candidate in protagonists10:
 df_prot = pd.DataFrame.from_dict(protagonist_index, orient = 'index')
 
 # Barplot
-df_prot.plot.bar(figsize = (20,10), fontsize = 16, legend = False, color='navy')
+df_prot.plot.bar(figsize = (20,10), fontsize = 20, legend = False, color='navy')
 plt.axhline(y=0, color='black', linestyle='-')
-plt.title('Sentiment Analysis for key characters',fontsize = 20)
-plt.ylabel("Sentiment level", fontsize = 16)
+plt.title('Sentiment Analysis for key characters',fontsize = 30)
+plt.ylabel("Sentiment level", fontsize = 20)
 plt.show()
 
 
@@ -313,11 +313,11 @@ character_j = character_journey(protag,10)
 df_j = pd.DataFrame.from_dict(character_j, orient = 'index')
 
 #Lineplot
-df_j.plot.line(figsize = (20,10), fontsize = 16, legend = False, color='darkgreen')
+df_j.plot.line(figsize = (20,10), fontsize = 20, legend = False, color='darkgreen')
 plt.axhline(y=0, color='black', linestyle='--')
-plt.title('Sentiment Analysis for the journey of ' + protag ,fontsize = 20)
-plt.xlabel("Journey", fontsize = 16)
-plt.ylabel("Sentiment level", fontsize = 16)
+plt.title('Sentiment Analysis for the journey of ' + protag ,fontsize = 30)
+plt.xlabel("Journey", fontsize = 20)
+plt.ylabel("Sentiment level", fontsize = 20)
 plt.show()
 
 
@@ -326,9 +326,9 @@ character_jc = character_journey_cumulative(protag,10)
 df_jc = pd.DataFrame.from_dict(character_jc, orient = 'index')
 
 #Lineplot
-df_jc.plot.line(figsize = (20,10), fontsize = 16, legend = False, color='darkgreen')
+df_jc.plot.line(figsize = (20,10), fontsize = 20, legend = False, color='darkgreen')
 plt.axhline(y=0, color='black', linestyle='--')
-plt.title('Sentiment Analysis for the journey of ' + protag ,fontsize = 20)
-plt.xlabel("Journey", fontsize = 16)
-plt.ylabel("Cumulative sentiment level", fontsize = 16)
+plt.title('Sentiment Analysis for the journey of ' + protag ,fontsize = 30)
+plt.xlabel("Journey", fontsize = 20)
+plt.ylabel("Cumulative sentiment level", fontsize = 20)
 plt.show()

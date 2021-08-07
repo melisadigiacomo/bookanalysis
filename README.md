@@ -45,7 +45,7 @@ For Hogwarts houses, Gryffindor got the highest sentiment level. Unexpectedly, R
 
 ### Sentiment analysis for key characters
 Sentiment level for the key characters based on appareances in paragraphs.
-Heroes and villains of the story are shown in the barplot. But this is not quite true. Neville Longbottom received a negative score, almost equal as Draco Malfoy. The sentiment analysis also counts as negative feelings, nostalgia and sadness, not just badness.
+Heroes and villains of the story are shown in the barplot. Unexpectedly, Neville Longbottom received a negative score, almost equal as Draco Malfoy. This may be because the sentiment analysis also counts as negative feelings, nostalgia and sadness, not just badness.
 
 ![keycharacters](images/keycharacters.png)
 
