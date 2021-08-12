@@ -53,5 +53,8 @@ Heroes and villains of the story are shown in the barplot. Unexpectedly, Neville
 The sentiment analysis was applied for a specific character. The book was splitted into a selected number of sections to display a chronological counter with its corresponding sentiment level. The sentiment level for each section of the journey across the book was also calculated cumulatively.
 Snape's sentiment journey was almost around zero across the book. But cumulatively, Snape had negative sentiments in Harry Potter and the Philosopher's Stone. Remember that he quickly became the primary antagonist of this book, as Harry suspected him of plotting to steal the Philosopher's Stone, and of attempting to kill him.
 
+![Snape](images/Snape.jpg)
+
 ![Snape](images/snape_j.png)
+
 ![Snape_cum](images/snape_jc.png)
